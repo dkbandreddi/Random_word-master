@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+	.box__bottom label,
+	.box__bottom input,
+	.box__bottom button {
+		font-size: 1.8rem;
+	}
+	.box__bottom input {
+		width: 15rem;
+		/* height: 2rem; */
+	}
+	.box__bottom label,
+	.box__bottom button {
+		padding: 0.5rem 1rem;
+	}
+}
+
+@media only screen and (max-width: 310px) {
+	.box__bottom label,
+	.box__bottom input,
+	.box__bottom button {
+		font-size: 1rem;
+	}
+	.box__bottom input {
+		width: 10rem;
+		/* height: 2rem; */
+	}
+	.box__bottom label,
+	.box__bottom button {
+		padding: 0.3rem 0.6rem;
+	}
+	.box__top h1 {
+		font-size: 2.2rem;
+	}
+}
